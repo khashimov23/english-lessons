@@ -1,0 +1,152 @@
+[
+ {
+  "lesson": 1,
+  "title": "Salomlashish",
+  "content": "Hello, Good morning, Goodbye"
+ },
+ {
+  "lesson": 2,
+  "title": "Tanishish",
+  "content": "What's your name? My name is ... Nice to meet you"
+ },
+ {
+  "lesson": 3,
+  "title": "Hol-ahvol so'rash",
+  "content": "How are you? I'm fine, thank you. And you?"
+ },
+ {
+  "lesson": 4,
+  "title": "Men, sen, u",
+  "content": "I, you, he, she"
+ },
+ {
+  "lesson": 5,
+  "title": "I am / You are",
+  "content": "I am a student. You are a teacher."
+ },
+ {
+  "lesson": 6,
+  "title": "He is / She is / It is",
+  "content": "He is a doctor. She is happy. It is a book."
+ },
+ {
+  "lesson": 7,
+  "title": "Biz, siz, ular",
+  "content": "We are, you are, they are"
+ },
+ {
+  "lesson": 8,
+  "title": "Inkor: emasman",
+  "content": "I'm not, he isn't, they aren't"
+ },
+ {
+  "lesson": 9,
+  "title": "Savol va qisqa javob",
+  "content": "Are you ...? Yes, I am. No, I'm not."
+ },
+ {
+  "lesson": 10,
+  "title": "Sonlar 1-10",
+  "content": "one, two, three ... ten"
+ },
+ {
+  "lesson": 11,
+  "title": "Sonlar 11-20 va yosh",
+  "content": "How old are you? I'm twenty."
+ },
+ {
+  "lesson": 12,
+  "title": "Bu va u",
+  "content": "this, that. What is this? It's a book."
+ },
+ {
+  "lesson": 13,
+  "title": "Buyumlar: a / an",
+  "content": "a pen, a book, an apple, an egg"
+ },
+ {
+  "lesson": 14,
+  "title": "Ko'plik",
+  "content": "book - books, pen - pens"
+ },
+ {
+  "lesson": 15,
+  "title": "Mening, sening",
+  "content": "my, your, his, her"
+ },
+ {
+  "lesson": 16,
+  "title": "Oila",
+  "content": "mother, father, brother, sister"
+ },
+ {
+  "lesson": 17,
+  "title": "Qayerdansiz?",
+  "content": "Where are you from? I'm from Uzbekistan."
+ },
+ {
+  "lesson": 18,
+  "title": "Ranglar",
+  "content": "red, blue, green, white, black"
+ },
+ {
+  "lesson": 19,
+  "title": "Sifatlar",
+  "content": "big, small, good, bad"
+ },
+ {
+  "lesson": 20,
+  "title": "Kundalik fe'llar",
+  "content": "go, eat, drink, sleep"
+ },
+ {
+  "lesson": 21,
+  "title": "Hozirgi zamon",
+  "content": "I work. I live in Tashkent."
+ },
+ {
+  "lesson": 22,
+  "title": "He / She + s",
+  "content": "He works. She lives in Samarkand."
+ },
+ {
+  "lesson": 23,
+  "title": "Inkor: qilmayman",
+  "content": "I don't, he doesn't"
+ },
+ {
+  "lesson": 24,
+  "title": "Savol: qilasizmi?",
+  "content": "Do you ...? Does he ...?"
+ },
+ {
+  "lesson": 25,
+  "title": "Yoqtirish",
+  "content": "I like tea. I don't like coffee."
+ },
+ {
+  "lesson": 26,
+  "title": "Menda bor",
+  "content": "I have a car. He has a sister."
+ },
+ {
+  "lesson": 27,
+  "title": "Qila olaman",
+  "content": "I can swim. I can't drive."
+ },
+ {
+  "lesson": 28,
+  "title": "Hafta kunlari",
+  "content": "Monday ... Sunday"
+ },
+ {
+  "lesson": 29,
+  "title": "Soat nechchi?",
+  "content": "What time is it? It's five o'clock."
+ },
+ {
+  "lesson": 30,
+  "title": "Odob so'zlari va takrorlash",
+  "content": "Please, Thank you, Sorry, Excuse me"
+ }
+]

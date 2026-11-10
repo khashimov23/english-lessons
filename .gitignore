@@ -1,0 +1,7 @@
+models/
+*.wav
+timing.json
+sheet.jpg
+frame_a.jpg
+__pycache__/
+.DS_Store
