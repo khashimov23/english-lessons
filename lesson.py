@@ -84,12 +84,13 @@ def ease(x):
 
 
 # ================================================================ ovoz (v3 dagi ovozdan foydalanadi)
+dot = lambda s: s if s[-1] in ".!?" else s + "."
 segs = [("hook", LES["hook_voice"], 0.95, 0.55)]
 for i, it in enumerate(items):
-    segs += [(f"slow{i}", it["en"] + ".", 0.75, 1.0), (f"norm{i}", it["en"] + ".", 0.9, 2.1)]
+    segs += [(f"slow{i}", dot(it["en"]), 0.75, 1.0), (f"norm{i}", dot(it["en"]), 0.9, 2.1)]
 segs += [("example", LES["example"]["en"], 0.8, 1.9), ("turn", "Your turn!", 0.9, 0.9)]
 for i, it in enumerate(items):
-    segs.append((f"rep{i}", it["en"] + ".", 0.85, 2.7 if i < NI - 1 else 3.2))
+    segs.append((f"rep{i}", dot(it["en"]), 0.85, 2.7 if i < NI - 1 else 3.2))
 if not os.path.exists(f"{OUT}/voice.wav") or "--tts" in sys.argv:
     from kokoro_onnx import Kokoro
     k = Kokoro(f"{ROOT}/models/kokoro-v1.0.onnx", f"{ROOT}/models/voices-v1.0.bin")
@@ -276,7 +277,7 @@ for i, it in enumerate(items):
            (name(it["uz"].split(" (")[0], 110), 540, 780, r["a"] + 0.2, r["b"])]
 # G: chaqiriq
 EL += [(text_layer("Kommentga yozing:", serif(104, 600), INK, squeeze=0.8), 540, 380, t_cta, TOTAL + 9),
-       (text_layer(f"“{items[0]['en']}”", serif(190, 600), CORAL, C2, squeeze=0.8), 540, 590, t_cta + 0.15, TOTAL + 9),
+       (fit_layer(f"“{LES.get('cta', items[0]['en'])}”", lambda z: serif(z, 600), 190, 980, top=CORAL, bot=C2, squeeze=0.8), 540, 590, t_cta + 0.15, TOTAL + 9),
        (text_layer(f"Ertaga: {LES['next']}", sans(46, "Medium"), GREY), 540, 830, t_cta + 0.4, TOTAL + 9)]
 
 # misol kartochkasi (xabar ko'rinishida), so'zma-so'z belgilash

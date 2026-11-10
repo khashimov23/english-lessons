@@ -1,0 +1,33 @@
+{
+  "lesson": 5,
+  "title": "I am, You are",
+  "hook": [
+    "«Men talabaman»",
+    "inglizcha qanday?"
+  ],
+  "hook_voice": "Lesson five. I am, you are.",
+  "items": [
+    {
+      "en": "I am a student",
+      "tr": "ay em e styudent",
+      "uz": "Men talabaman"
+    },
+    {
+      "en": "You are a teacher",
+      "tr": "yu ar e tiycher",
+      "uz": "Siz o'qituvchisiz"
+    },
+    {
+      "en": "I'm happy",
+      "tr": "aym hepi",
+      "uz": "Men xursandman"
+    }
+  ],
+  "example": {
+    "en": "I'm Mubina. I am a teacher.",
+    "uz": "Men Mubinaman. Men o'qituvchiman."
+  },
+  "cta": "I am a student",
+  "next": "6-dars: He is, She is",
+  "caption": "0 dan ingliz tili · 5-dars: I am, You are\n\nI am a student — Men talabaman\nYou are a teacher — Siz o'qituvchisiz\nI'm happy — Men xursandman\n\nI'm = I am (qisqa shakli).\nErtaga 6-dars: He is, She is.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

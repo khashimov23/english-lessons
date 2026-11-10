@@ -1,0 +1,33 @@
+{
+  "lesson": 3,
+  "title": "Hol-ahvol so'rash",
+  "hook": [
+    "Inglizcha qanday",
+    "hol so'raymiz?"
+  ],
+  "hook_voice": "Lesson three. How are you?",
+  "items": [
+    {
+      "en": "How are you?",
+      "tr": "hau ar yu",
+      "uz": "Qalaysiz?"
+    },
+    {
+      "en": "I'm fine",
+      "tr": "aym fayn",
+      "uz": "Yaxshiman"
+    },
+    {
+      "en": "Thank you",
+      "tr": "senk yu",
+      "uz": "Rahmat"
+    }
+  ],
+  "example": {
+    "en": "How are you? I'm fine, thank you.",
+    "uz": "Qalaysiz? Yaxshiman, rahmat."
+  },
+  "cta": "I'm fine",
+  "next": "4-dars: Men, sen, u",
+  "caption": "0 dan ingliz tili · 3-dars: Hol-ahvol so'rash\n\nHow are you? — Qalaysiz?\nI'm fine — Yaxshiman\nThank you — Rahmat\n\nBugun qalaysiz? Izohda inglizcha yozing: I'm fine\nErtaga 4-dars: Men, sen, u.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

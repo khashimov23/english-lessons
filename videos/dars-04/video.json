@@ -1,0 +1,33 @@
+{
+ "lesson": 4,
+ "title": "Men, sen, u",
+ "hook": [
+  "«Men, sen, u»",
+  "inglizcha qanday?"
+ ],
+ "hook_voice": "Lesson four. I, you, he, she.",
+ "items": [
+  {
+   "en": "I",
+   "tr": "ay",
+   "uz": "Men"
+  },
+  {
+   "en": "You",
+   "tr": "yu",
+   "uz": "Sen / Siz"
+  },
+  {
+   "en": "He, she",
+   "tr": "hi, shi",
+   "uz": "U: erkak / ayol"
+  }
+ ],
+ "example": {
+  "en": "She is my teacher.",
+  "uz": "U mening o'qituvchim."
+ },
+ "cta": "I, you, he, she",
+ "next": "5-dars: I am, You are",
+ "caption": "0 dan ingliz tili · 4-dars: Men, sen, u\n\nI — Men\nYou — Sen / Siz\nHe — U (erkak)\nShe — U (ayol)\n\nInglizchada \"I\" doim katta harf bilan yoziladi.\nErtaga 5-dars: I am, You are.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
