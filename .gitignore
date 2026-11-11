@@ -8,3 +8,4 @@ __pycache__/
 
 # doimiy ovoz bo'laklari repoda saqlanadi
 !voice_uz/**/*.wav
+models

@@ -10,17 +10,22 @@
   {
    "en": "I",
    "tr": "ay",
-   "uz": "Men"
+   "uz": "Men",
+   "when": "O'zingiz haqingizda"
   },
   {
    "en": "You",
    "tr": "yu",
-   "uz": "Sen / Siz"
+   "uz": "Sen / Siz",
+   "when": "Suhbatdoshingizga",
+   "uz_say": "Sen yoki siz."
   },
   {
    "en": "He, she",
    "tr": "hi, shi",
-   "uz": "U: erkak / ayol"
+   "uz": "U: erkak / ayol",
+   "when": "Boshqa odam haqida",
+   "uz_say": "U. Erkak yoki ayol."
   }
  ],
  "example": {
@@ -29,5 +34,11 @@
  },
  "cta": "I, you, he, she",
  "next": "5-dars: I am, You are",
- "caption": "0 dan ingliz tili · 4-dars: Men, sen, u\n\nI — Men\nYou — Sen / Siz\nHe — U (erkak)\nShe — U (ayol)\n\nInglizchada \"I\" doim katta harf bilan yoziladi.\nErtaga 5-dars: I am, You are.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+ "caption": "0 dan ingliz tili, 4-dars: inglizcha «men, sen, u».\n\nI — Men\nYou — Sen / Siz\nHe — U (erkak)\nShe — U (ayol)\n\nInglizchada \"I\" doim katta harf bilan yoziladi.\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 5-dars: I am, You are.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan",
+ "hook_big": [
+  "«Men, sen, u»",
+  "inglizcha qanday?"
+ ],
+ "hook_say": "Men, sen, u inglizcha qanday bo'ladi?",
+ "end_say": "Saqlab qo'ying! Ertaga beshinchi darsda ko'rishamiz."
 }

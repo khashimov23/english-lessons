@@ -523,8 +523,23 @@ def cover():
     ft = fit(LES["title"], lambda z: fra(z, 700), 124, 860)
     marker(fr, 540, 880, ft.getlength(LES["title"]) + 56, ft.size * 0.62, 1)
     fr.alpha_composite(tl := txt(LES["title"], ft, INK), (540 - tl.width // 2, 870 - tl.height // 2))
-    s = "  ·  ".join(it["en"] for it in items)
-    fr.alpha_composite(tl := txt(s, fit(s, lambda z: pop(z, "Medium"), 48, 880), GREY), (540 - tl.width // 2, 1000))
+    # o'rganiladigan so'zlar: bir qatorga sig'sa bitta qator, sig'masa o'qiladigan o'lchamda 2-3 qatorga bo'linadi
+    one = "  ·  ".join(it["en"] for it in items)
+    f = pop(46, "Medium")
+    if f.getlength(one) <= 900:
+        rows = [one]
+    else:
+        f, rows, cur = pop(42, "Medium"), [], ""
+        for it in items:
+            nxt = it["en"] if not cur else cur + "  ·  " + it["en"]
+            if cur and f.getlength(nxt) > 900:
+                rows.append(cur)
+                cur = it["en"]
+            else:
+                cur = nxt
+        rows.append(cur)
+    for k, row in enumerate(rows):
+        fr.alpha_composite(tl := txt(row, f, GREY), (540 - tl.width // 2, 1000 + k * 58 - (len(rows) - 1) * 12))
     return fr.convert("RGB")
 
 
