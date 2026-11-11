@@ -6,17 +6,20 @@
   {
    "en": "Hello",
    "tr": "helou",
-   "uz": "Salom"
+   "uz": "Salom",
+   "when": "Ko'rishganda"
   },
   {
    "en": "Good morning",
    "tr": "gud morning",
-   "uz": "Xayrli tong"
+   "uz": "Xayrli tong",
+   "when": "Ertalab ko'rishganda"
   },
   {
    "en": "Goodbye",
    "tr": "gudbay",
-   "uz": "Xayr"
+   "uz": "Xayr",
+   "when": "Xayrlashganda"
   }
  ],
  "example": {
@@ -24,9 +27,22 @@
   "uz": "Salom! Xayrli tong!"
  },
  "next": "2-dars: Tanishish",
- "caption": "0 dan ingliz tili · 1-dars: Salomlashish\n\nHello — Salom\nGood morning — Xayrli tong\nGoodbye — Xayr\n\nOvoz chiqarib takrorlang va saqlab qo'ying. Ertaga 2-dars: Tanishish.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan",
+ "caption": "0 dan ingliz tili, 1-dars: inglizcha salomlashish. Birinchi 3 ta so'zingiz:\n\nHello — Salom\nGood morning — Xayrli tong\nGoodbye — Xayr\n\nOvoz chiqarib takrorlang va saqlab qo'ying. Ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 2-dars: Tanishish.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan",
  "hook": [
   "Inglizcha qanday",
   "salomlashamiz?"
+ ],
+ "hook_big": [
+  "Inglizcha birinchi",
+  "3 ta so'zingiz."
+ ],
+ "hook_say": "Inglizcha birinchi uchta so'zingizni o'rganamiz!",
+ "end_say": "Saqlab qo'ying! Ertaga ikkinchi dars: tanishish.",
+ "hook_weights": [
+  9,
+  8,
+  2,
+  3,
+  20
  ]
 }
