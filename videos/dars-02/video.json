@@ -10,17 +10,20 @@
   {
    "en": "What's your name?",
    "tr": "vots yor neym",
-   "uz": "Ismingiz nima?"
+   "uz": "Ismingiz nima?",
+   "when": "Ism so'raganda"
   },
   {
    "en": "My name is Mubina",
    "tr": "may neym iz Mubina",
-   "uz": "Mening ismim Mubina"
+   "uz": "Mening ismim Mubina",
+   "when": "O'zingizni tanishtirganda"
   },
   {
    "en": "Nice to meet you",
    "tr": "nays tu mit yu",
-   "uz": "Tanishganimdan xursandman"
+   "uz": "Tanishganimdan xursandman",
+   "when": "Tanishib bo'lgach"
   }
  ],
  "example": {
@@ -29,5 +32,11 @@
  },
  "cta": "My name is …",
  "next": "3-dars: Hol-ahvol",
- "caption": "0 dan ingliz tili · 2-dars: Tanishish\n\nWhat's your name? — Ismingiz nima?\nMy name is … — Mening ismim …\nNice to meet you — Tanishganimdan xursandman\n\nIzohda o'zingizni inglizcha tanishtiring: My name is …\nErtaga 3-dars: Hol-ahvol so'rash.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+ "caption": "0 dan ingliz tili, 2-dars: inglizcha tanishish. Ismingizni inglizcha aytishni o'rganamiz:\n\nWhat's your name? — Ismingiz nima?\nMy name is … — Mening ismim …\nNice to meet you — Tanishganimdan xursandman\n\nIzohda o'zingizni inglizcha tanishtiring: My name is …\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 3-dars: Hol-ahvol so'rash.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan",
+ "hook_big": [
+  "Ismingizni inglizcha",
+  "ayta olasizmi?"
+ ],
+ "hook_say": "Ismingizni inglizcha ayta olasizmi?",
+ "end_say": "Saqlab qo'ying! Ertaga uchinchi dars: hol-ahvol so'rash."
 }
