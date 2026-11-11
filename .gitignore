@@ -5,3 +5,6 @@ sheet.jpg
 frame_a.jpg
 __pycache__/
 .DS_Store
+
+# doimiy ovoz bo'laklari repoda saqlanadi
+!voice_uz/**/*.wav
