@@ -10,17 +10,20 @@
   {
    "en": "I am a student",
    "tr": "ay em e styudent",
-   "uz": "Men talabaman"
+   "uz": "Men talabaman",
+   "when": "O'zingiz haqingizda"
   },
   {
    "en": "You are a teacher",
    "tr": "yu ar e tiycher",
-   "uz": "Siz o'qituvchisiz"
+   "uz": "Siz o'qituvchisiz",
+   "when": "Suhbatdoshingiz haqida"
   },
   {
    "en": "I'm happy",
    "tr": "aym hepi",
-   "uz": "Men xursandman"
+   "uz": "Men xursandman",
+   "when": "Kayfiyatingiz haqida"
   }
  ],
  "example": {
@@ -29,5 +32,11 @@
  },
  "cta": "I am a student",
  "next": "6-dars: He is, She is",
- "caption": "0 dan ingliz tili · 5-dars: I am, You are\n\nI am a student — Men talabaman\nYou are a teacher — Siz o'qituvchisiz\nI'm happy — Men xursandman\n\nI'm = I am (qisqa shakli).\nErtaga 6-dars: He is, She is.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+ "caption": "0 dan ingliz tili, 5-dars: inglizcha «I am, You are».\n\nI am a student — Men talabaman\nYou are a teacher — Siz o'qituvchisiz\nI'm happy — Men xursandman\n\nI'm = I am (qisqa shakli).\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 6-dars: He is, She is.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan",
+ "hook_big": [
+  "«Men talabaman»",
+  "inglizcha qanday?"
+ ],
+ "hook_say": "Men talabaman inglizcha qanday bo'ladi?",
+ "end_say": "Saqlab qo'ying! Ertaga oltinchi darsda ko'rishamiz."
 }

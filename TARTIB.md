@@ -84,22 +84,20 @@ Eski maydonlarga qo'shimcha:
 ## 5. Yangi darsni tayyorlash
 
 Ovoz bo'laklari `voice_uz/dars-NN/` ga tushadi: `hook, slow0, norm0, uz0, …, example, exuz, turn, rep0, …, next` (`.wav`, 24 kHz).
+"Endi sizning navbatingiz!" har darsda bir xil — `voice_uz/ref/turn.wav` dan olinadi, qayta chiqarilmaydi.
 
 ```bash
-D=ish/dars-NN            # vaqtinchalik papka: kokoro/ pre/ vc/ texts.json
-# 1) inglizcha bo'laklar (Kokoro)
-python tools/1_kokoro_inglizcha.py lessons/dars-NN.json $D/kokoro .
-# 2) $D/texts.json — o'zbekcha gaplar: hook, uz0.., exuz, turn, next
-#    keyin: inglizchani ovozga o'girish + o'zbekchani chiqarish
-python tools/2_ovoz_chiqar.py $D
-# 3) kirish jumlasini kesish, tekshirish, voice_uz/dars-NN ga yozish
-python tools/3_kes_va_tekshir.py $D voice_uz/dars-NN
-cp $D/vc/*.wav voice_uz/dars-NN/
-python tools/4_inglizcha_tekshir.py $D/vc
-# 4) video, muqova, izoh
-python lesson_v2.py lessons/dars-NN.json sheet    # oldindan ko'rish: videos/dars-NN/sheet.jpg
-python lesson_v2.py lessons/dars-NN.json
+D=ish/dars-NN                                             # vaqtinchalik papka
+python tools/0_matnlar.py lessons/dars-NN.json $D         # o'zbekcha matnlar -> $D/texts.json
+python tools/1_kokoro_inglizcha.py lessons/dars-NN.json $D/kokoro .   # inglizcha bo'laklar (Kokoro)
+python tools/2_ovoz_chiqar.py $D                          # inglizchani ovozga o'girish + o'zbekchani chiqarish
+tools/5_yigish.sh NN $D                                   # kesish, tekshirish, video + muqova + izoh
 ```
+
+Oldindan ko'rish: `python lesson_v2.py lessons/dars-NN.json sheet` → `videos/dars-NN/sheet.jpg`.
+
+Tekshiruv natijasini har doim o'qing: `OK` qatorlarida matn va tanilgan nutq mos kelishi kerak; `FAIL` chiqsa, o'sha gap qayta chiqariladi.
+Inglizcha tekshiruvda "Mubina" ismi ko'pincha "Mupina/Nubina" deb taniladi — bu ma'lum holat.
 
 `TTS_ROOT` — modellar turgan papka. Ichida `dl/` bo'lishi kerak:
 `CosyVoice` (GitHub, `third_party/Matcha-TTS` bilan), `CosyVoice2-0.5B` (`FunAudioLLM/CosyVoice2-0.5B`; `llm.pt` o'rniga Navoiy checkpointining `epoch`/`step` kalitlari olib tashlangan nusxasi), `navoiy-tts`, `whisper-small-uzbek` (`navai-uz/whisper-small-uzbek`), `whisper-base-en` (`openai/whisper-base.en`).
@@ -107,8 +105,10 @@ Hugging Face fayllari uchun `us.aws.cdn.hf.co` domeniga ruxsat kerak. GPU'siz ma
 
 ## 6. Instagram'ga joylash
 
+- **Vaqt:** har kuni **18:30** (Toshkent vaqti), kuniga bitta dars, tartib bilan.
 - **Turi:** Reel, lentada ham ko'rinadi.
-- **Muqova:** `videos/dars-NN/cover.jpg` — yuklash paytida tanlanadi, keyin o'zgartirib bo'lmaydi.
-- **Izoh:** `videos/dars-NN/caption.txt`.
+- **Muqova:** `videos/dars-NN/cover.jpg`. Barcha darslarda tuzilishi bir xil: "0 DAN INGLIZ TILI" belgisi → "N-dars" → mavzu (nilufar marker bilan) → o'rganiladigan so'zlar (sig'masa 2–3 qatorga bo'linadi) → o'qituvchi. Joylagandan keyin o'zgartirib bo'lmaydi.
+- **Izoh:** `videos/dars-NN/caption.txt` — birinchi jumlada "0 dan ingliz tili, N-dars: …", oxirida saqlash va do'stga yuborish chaqirig'i, 5 ta heshteg.
 - **Sun'iy intellekt belgisi:** yoqiladi (ovoz sintetik).
-- **Vosita:** Metricool, brend "English with Mubina" (`@englishwithmubina`). Video uchun ochiq havola kerak.
+- **Vosita:** Metricool, brend "English with Mubina" (`@englishwithmubina`). Video va muqova uchun ochiq havola kerak: fayllar GitHub'ga yuklangach, `https://raw.githubusercontent.com/khashimov23/english-lessons/<branch>/videos/dars-NN/…` havolasi beriladi.
+- `state.json` da qaysi dars qachonga belgilangani yozib boriladi.

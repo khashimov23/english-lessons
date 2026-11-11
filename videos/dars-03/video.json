@@ -10,17 +10,20 @@
   {
    "en": "How are you?",
    "tr": "hau ar yu",
-   "uz": "Qalaysiz?"
+   "uz": "Qalaysiz?",
+   "when": "Hol so'raganda"
   },
   {
    "en": "I'm fine",
    "tr": "aym fayn",
-   "uz": "Yaxshiman"
+   "uz": "Yaxshiman",
+   "when": "Javob berganda"
   },
   {
    "en": "Thank you",
    "tr": "senk yu",
-   "uz": "Rahmat"
+   "uz": "Rahmat",
+   "when": "Minnatdorchilik bildirganda"
   }
  ],
  "example": {
@@ -29,5 +32,11 @@
  },
  "cta": "I'm fine",
  "next": "4-dars: Men, sen, u",
- "caption": "0 dan ingliz tili · 3-dars: Hol-ahvol so'rash\n\nHow are you? — Qalaysiz?\nI'm fine — Yaxshiman\nThank you — Rahmat\n\nBugun qalaysiz? Izohda inglizcha yozing: I'm fine\nErtaga 4-dars: Men, sen, u.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+ "caption": "0 dan ingliz tili, 3-dars: inglizcha hol-ahvol so'rash.\n\nHow are you? — Qalaysiz?\nI'm fine — Yaxshiman\nThank you — Rahmat\n\nBugun qalaysiz? Izohda inglizcha yozing: I'm fine\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 4-dars: Men, sen, u.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan",
+ "hook_big": [
+  "Inglizcha hol so'rashni",
+  "bilasizmi?"
+ ],
+ "hook_say": "Inglizcha hol so'rashni bilasizmi?",
+ "end_say": "Saqlab qo'ying! Ertaga to'rtinchi dars: men, sen, u."
 }
