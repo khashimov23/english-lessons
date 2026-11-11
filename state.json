@@ -1,5 +1,5 @@
 {
- "last_built": 5,
+ "last_built": 6,
  "last_scheduled": 5,
  "scheduled": {
   "1": "2026-11-11T15:18:00+05:00",
@@ -9,5 +9,7 @@
   "5": "2026-11-14T18:30:00+05:00"
  },
  "daily_time": "18:30",
- "template": "lesson_v2.py"
+ "template": "lesson_v2.py",
+ "setup": "./setup_v2.sh",
+ "build": "tools/dars.sh NN"
 }

@@ -83,25 +83,32 @@ Eski maydonlarga qo'shimcha:
 
 ## 5. Yangi darsni tayyorlash
 
-Ovoz bo'laklari `voice_uz/dars-NN/` ga tushadi: `hook, slow0, norm0, uz0, …, example, exuz, turn, rep0, …, next` (`.wav`, 24 kHz).
-"Endi sizning navbatingiz!" har darsda bir xil — `voice_uz/ref/turn.wav` dan olinadi, qayta chiqarilmaydi.
+Bir martalik tayyorgarlik (yangi muhitda): `./setup_v2.sh` — kutubxonalar va ovoz modellarini o'rnatadi (~8 GB, 10–20 daqiqa). Modellar `$TTS_ROOT` ga tushadi (sukut bo'yicha `~/tts`). Tarmoqda `github.com`, `pypi.org`, `huggingface.co` va `us.aws.cdn.hf.co` ochiq bo'lishi kerak.
+
+Bitta dars:
 
 ```bash
-D=ish/dars-NN                                             # vaqtinchalik papka
-python tools/0_matnlar.py lessons/dars-NN.json $D         # o'zbekcha matnlar -> $D/texts.json
-python tools/1_kokoro_inglizcha.py lessons/dars-NN.json $D/kokoro .   # inglizcha bo'laklar (Kokoro)
-python tools/2_ovoz_chiqar.py $D                          # inglizchani ovozga o'girish + o'zbekchani chiqarish
-tools/5_yigish.sh NN $D                                   # kesish, tekshirish, video + muqova + izoh
+tools/dars.sh NN          # masalan: tools/dars.sh 06  (GPU'siz mashinada ~12 daqiqa)
 ```
 
-Oldindan ko'rish: `python lesson_v2.py lessons/dars-NN.json sheet` → `videos/dars-NN/sheet.jpg`.
+Bu buyruq `lessons/dars-NN.json` dan ovozni chiqaradi, tekshiradi va `videos/dars-NN/` ga video, muqova va izohni yozadi. Oxirgi qatorda `DARS_OK NN` chiqsa hammasi joyida; `DARS_XATO …` chiqsa videoni ishlatmang.
 
-Tekshiruv natijasini har doim o'qing: `OK` qatorlarida matn va tanilgan nutq mos kelishi kerak; `FAIL` chiqsa, o'sha gap qayta chiqariladi.
-Inglizcha tekshiruvda "Mubina" ismi ko'pincha "Mupina/Nubina" deb taniladi — bu ma'lum holat.
+Ichida bajariladigan qadamlar (alohida ham ishga tushirsa bo'ladi):
 
-`TTS_ROOT` — modellar turgan papka. Ichida `dl/` bo'lishi kerak:
-`CosyVoice` (GitHub, `third_party/Matcha-TTS` bilan), `CosyVoice2-0.5B` (`FunAudioLLM/CosyVoice2-0.5B`; `llm.pt` o'rniga Navoiy checkpointining `epoch`/`step` kalitlari olib tashlangan nusxasi), `navoiy-tts`, `whisper-small-uzbek` (`navai-uz/whisper-small-uzbek`), `whisper-base-en` (`openai/whisper-base.en`).
-Hugging Face fayllari uchun `us.aws.cdn.hf.co` domeniga ruxsat kerak. GPU'siz mashinada bitta dars 10–12 daqiqa oladi.
+| Qadam | Skript |
+|---|---|
+| O'zbekcha matnlar | `tools/0_matnlar.py` |
+| Inglizcha bo'laklar (Kokoro) | `tools/1_kokoro_inglizcha.py` |
+| Inglizchani shu ovozga o'girish + o'zbekchani chiqarish | `tools/2_ovoz_chiqar.py` |
+| Kirish jumlasini kesish va o'zbekchani tekshirish | `tools/3_kes_va_tekshir.py` |
+| Inglizchani tekshirish | `tools/4_inglizcha_tekshir.py` |
+| Video, muqova, izoh | `lesson_v2.py` |
+
+Ovoz bo'laklari `voice_uz/dars-NN/` da saqlanadi: `hook, slow0, norm0, uz0, …, example, exuz, turn, rep0, …, next` (`.wav`, 24 kHz). "Endi sizning navbatingiz!" har darsda bir xil — `voice_uz/ref/turn.wav` dan olinadi.
+
+Tekshiruv natijasini har doim o'qing: `OK` qatorlarida matn va tanilgan nutq mos kelishi kerak. Inglizcha tekshiruvda bir bo'g'inli so'zlar ("I", "You") va "Mubina" ismi ko'pincha noto'g'ri taniladi — bu ma'lum holat, quloq bilan tekshiriladi.
+
+Oldindan ko'rish: `videos/dars-NN/sheet.jpg`.
 
 ## 6. Instagram'ga joylash
 

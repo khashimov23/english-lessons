@@ -1,0 +1,18 @@
+{
+  "lesson": 6,
+  "title": "He is, She is, It is",
+  "hook": ["«U» inglizcha", "3 xil bo'ladi"],
+  "hook_voice": "Lesson six. He is, she is, it is.",
+  "hook_big": ["Inglizchada «u» uchun", "3 xil so'z bor."],
+  "hook_say": "Inglizchada u uchun uch xil so'z bor!",
+  "items": [
+    {"en": "He is a doctor", "tr": "hi iz e doktor", "uz": "U shifokor", "when": "Erkak kishi haqida"},
+    {"en": "She is happy", "tr": "shi iz hepi", "uz": "U xursand", "when": "Ayol kishi haqida"},
+    {"en": "It is a book", "tr": "it iz e buk", "uz": "Bu kitob", "when": "Narsa haqida"}
+  ],
+  "example": {"en": "He is my friend. He is happy.", "uz": "U mening do'stim. U xursand."},
+  "cta": "She is happy",
+  "next": "7-dars: Biz, siz, ular",
+  "end_say": "Saqlab qo'ying! Ertaga yettinchi dars: biz, siz, ular.",
+  "caption": "0 dan ingliz tili, 6-dars: inglizcha «He is, She is, It is».\n\nHe is a doctor — U shifokor\nShe is happy — U xursand\nIt is a book — Bu kitob\n\nHe — erkak, she — ayol, it — narsa yoki hayvon haqida.\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 7-dars: Biz, siz, ular.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
