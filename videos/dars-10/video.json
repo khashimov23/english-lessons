@@ -1,0 +1,42 @@
+{
+ "lesson": 10,
+ "title": "Sonlar 1-10",
+ "hook": [
+  "Inglizcha 10 gacha",
+  "birga sanaymiz."
+ ],
+ "hook_voice": "Lesson ten. Numbers from one to ten.",
+ "hook_big": [
+  "Inglizcha 10 gacha",
+  "birga sanaymiz."
+ ],
+ "hook_say": "Inglizcha o'ngacha birga sanaymiz!",
+ "items": [
+  {
+   "en": "One, two, three",
+   "tr": "van, tu, sri",
+   "uz": "Bir, ikki, uch",
+   "when": "Uchgacha sanaganda"
+  },
+  {
+   "en": "Four, five, six",
+   "tr": "for, fayv, siks",
+   "uz": "To'rt, besh, olti",
+   "when": "Oltigacha sanaganda"
+  },
+  {
+   "en": "Seven, eight, nine, ten",
+   "tr": "seven, eyt, nayn, ten",
+   "uz": "Yetti, sakkiz, to'qqiz, o'n",
+   "when": "O'ngacha sanaganda"
+  }
+ ],
+ "example": {
+  "en": "One, two, three, go!",
+  "uz": "Bir, ikki, uch, boshladik!"
+ },
+ "cta": "One, two, three",
+ "next": "11-dars: Sonlar 11-20 va yosh",
+ "end_say": "Saqlab qo'ying! Ertaga o'n birinchi dars: sonlar va yosh.",
+ "caption": "0 dan ingliz tili, 10-dars: inglizcha sonlar, 1 dan 10 gacha.\n\nOne, two, three — Bir, ikki, uch\nFour, five, six — To'rt, besh, olti\nSeven, eight, nine, ten — Yetti, sakkiz, to'qqiz, o'n\n\nIzohda 1 dan 10 gacha inglizcha sanab yozing!\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 11-dars: Sonlar 11-20 va yosh.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

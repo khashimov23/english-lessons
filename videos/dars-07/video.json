@@ -1,0 +1,42 @@
+{
+ "lesson": 7,
+ "title": "Biz, siz, ular",
+ "hook": [
+  "«Biz do'stmiz»",
+  "inglizcha ayta olasizmi?"
+ ],
+ "hook_voice": "Lesson seven. We are, you are, they are.",
+ "hook_big": [
+  "«Biz do'stmiz»",
+  "inglizcha ayta olasizmi?"
+ ],
+ "hook_say": "Biz do'stmiz. Inglizcha ayta olasizmi?",
+ "items": [
+  {
+   "en": "We are friends",
+   "tr": "vi ar frendz",
+   "uz": "Biz do'stmiz",
+   "when": "O'zimiz haqimizda"
+  },
+  {
+   "en": "You are students",
+   "tr": "yu ar styudents",
+   "uz": "Sizlar talabasiz",
+   "when": "Bir necha kishiga"
+  },
+  {
+   "en": "They are happy",
+   "tr": "dey ar hepi",
+   "uz": "Ular xursand",
+   "when": "Boshqalar haqida"
+  }
+ ],
+ "example": {
+  "en": "We are students. They are teachers.",
+  "uz": "Biz talabamiz. Ular o'qituvchilar."
+ },
+ "cta": "We are friends",
+ "next": "8-dars: Inkor gaplar",
+ "end_say": "Saqlab qo'ying! Ertaga sakkizinchi dars: inkor gaplar.",
+ "caption": "0 dan ingliz tili, 7-dars: inglizcha «We are, You are, They are».\n\nWe are friends — Biz do'stmiz\nYou are students — Sizlar talabasiz\nThey are happy — Ular xursand\n\nWe, you, they — uchalasidan keyin ham doim \"are\" keladi.\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 8-dars: Inkor gaplar.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

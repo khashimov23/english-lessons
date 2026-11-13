@@ -1,0 +1,42 @@
+{
+ "lesson": 8,
+ "title": "Inkor: emasman",
+ "hook": [
+  "«Emas» deyish uchun",
+  "bitta so'z yetadi."
+ ],
+ "hook_voice": "Lesson eight. I'm not, he isn't, they aren't.",
+ "hook_big": [
+  "«Emas» deyish uchun",
+  "bitta so'z yetadi."
+ ],
+ "hook_say": "Emas deyish uchun bitta so'z yetadi!",
+ "items": [
+  {
+   "en": "I'm not a doctor",
+   "tr": "aym not e doktor",
+   "uz": "Men shifokor emasman",
+   "when": "O'zingiz haqingizda"
+  },
+  {
+   "en": "He isn't happy",
+   "tr": "hi izent hepi",
+   "uz": "U xursand emas",
+   "when": "Boshqa odam haqida"
+  },
+  {
+   "en": "They aren't students",
+   "tr": "dey arnt styudents",
+   "uz": "Ular talaba emas",
+   "when": "Ko'pchilik haqida"
+  }
+ ],
+ "example": {
+  "en": "I'm not a teacher. I'm a student.",
+  "uz": "Men o'qituvchi emasman. Men talabaman."
+ },
+ "cta": "I'm not a doctor",
+ "next": "9-dars: Savol va qisqa javob",
+ "end_say": "Saqlab qo'ying! Ertaga to'qqizinchi dars: savol va qisqa javob.",
+ "caption": "0 dan ingliz tili, 8-dars: inglizcha «I'm not, He isn't, They aren't».\n\nI'm not a doctor — Men shifokor emasman\nHe isn't happy — U xursand emas\nThey aren't students — Ular talaba emas\n\nnot = emas. isn't = is not, aren't = are not (qisqa shakllari).\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 9-dars: Savol va qisqa javob.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

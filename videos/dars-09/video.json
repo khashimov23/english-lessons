@@ -1,0 +1,42 @@
+{
+ "lesson": 9,
+ "title": "Savol va qisqa javob",
+ "hook": [
+  "Inglizcha savol berish",
+  "juda oson."
+ ],
+ "hook_voice": "Lesson nine. Are you? Yes, I am. No, I'm not.",
+ "hook_big": [
+  "Inglizcha savol berish",
+  "juda oson."
+ ],
+ "hook_say": "Inglizcha savol berish juda oson!",
+ "items": [
+  {
+   "en": "Are you a student?",
+   "tr": "ar yu e styudent",
+   "uz": "Siz talabamisiz?",
+   "when": "Savol berganda"
+  },
+  {
+   "en": "Yes, I am",
+   "tr": "yes, ay em",
+   "uz": "Ha, shunday",
+   "when": "Ha deganda"
+  },
+  {
+   "en": "No, I'm not",
+   "tr": "nou, aym not",
+   "uz": "Yo'q, emasman",
+   "when": "Yo'q deganda"
+  }
+ ],
+ "example": {
+  "en": "Are you happy? Yes, I am.",
+  "uz": "Siz xursandmisiz? Ha, xursandman."
+ },
+ "cta": "Are you a student?",
+ "next": "10-dars: Sonlar 1-10",
+ "end_say": "Saqlab qo'ying! Ertaga o'ninchi dars: birdan o'ngacha sonlar.",
+ "caption": "0 dan ingliz tili, 9-dars: inglizcha «Are you ...? Yes, I am. No, I'm not».\n\nAre you a student? — Siz talabamisiz?\nYes, I am — Ha, shunday\nNo, I'm not — Yo'q, emasman\n\nSavol berish uchun \"are\" oldinga chiqadi: You are → Are you?\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 10-dars: Sonlar 1-10.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
