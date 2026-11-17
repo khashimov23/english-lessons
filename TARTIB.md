@@ -119,3 +119,12 @@ Oldindan ko'rish: `videos/dars-NN/sheet.jpg`.
 - **Sun'iy intellekt belgisi:** yoqiladi (ovoz sintetik).
 - **Vosita:** Metricool, brend "English with Mubina" (`@englishwithmubina`). Video va muqova uchun ochiq havola kerak: fayllar GitHub'ga yuklangach, `https://raw.githubusercontent.com/khashimov23/english-lessons/<branch>/videos/dars-NN/…` havolasi beriladi.
 - `state.json` da qaysi dars qachonga belgilangani yozib boriladi.
+
+## 7. YouTube'ga joylash (2026-11-17 dan)
+
+- Har bir dars Instagram bilan **bir vaqtda** (18:30) YouTube'ga **Shorts** bo'lib ham chiqadi — Metricool'da bitta post, ikki tarmoq (`instagram` + `youtube`).
+- **Sarlavha:** "0 dan ingliz tili, N-dars: <curriculum.json dagi mavzu>" (100 belgidan oshmasin).
+- **Tavsif:** `caption.txt` matni so'zma-so'z (Instagram bilan bir xil).
+- **Sozlamalar:** `type: short`, `privacy: public`, `category: EDUCATION`, `madeForKids: false`, `isAiGeneratedContent: true`, teglar: ingliz tili, 0 dan ingliz tili, inglizcha, english, uzbekistan.
+- **Muqova:** o'sha `cover.jpg` (kanal tasdiqlangan bo'lsa ko'rinadi).
+- 1–7-darslar YouTube'ga 2026-11-17 da bir kunda joylangan; `state.json` dagi `youtube_scheduled` da vaqtlari yozilgan.
