@@ -31,9 +31,10 @@
  },
  "youtube_channel": "UCki0ZHTWcxjycHhcBmZ7grA",
  "xato_last_built": 2,
- "xato_last_scheduled": 1,
+ "xato_last_scheduled": 2,
  "xato_scheduled": {
-  "1": "2026-11-18T13:00:00+05:00"
+  "1": "2026-11-18T13:00:00+05:00",
+  "2": "2026-11-19T13:00:00+05:00"
  },
  "xato_time": "13:00",
  "xato_plan_last": 16
