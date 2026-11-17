@@ -128,3 +128,12 @@ Oldindan ko'rish: `videos/dars-NN/sheet.jpg`.
 - **Sozlamalar:** `type: short`, `privacy: public`, `category: EDUCATION`, `madeForKids: false`, `isAiGeneratedContent: true`, teglar: ingliz tili, 0 dan ingliz tili, inglizcha, english, uzbekistan.
 - **Muqova:** o'sha `cover.jpg` (kanal tasdiqlangan bo'lsa ko'rinadi).
 - 1–7-darslar YouTube'ga 2026-11-17 da bir kunda joylangan; `state.json` dagi `youtube_scheduled` da vaqtlari yozilgan.
+
+## 8. Maxsus videolar: "Xato va to'g'risi" (2026-11-17 dan)
+
+Kunlik darslardan tashqari, qamrovni oshirish uchun alohida format: "Bunday demang — bunday deng" (3 ta ko'p qilinadigan xato).
+
+- Mazmun: `specials/xato-NN.json` (`items`: `uz`, `wrong`, `en`, `tr`, `note`; `hook_big`, `hook_say`, `end_big`, `end_say`, `caption`, `yt_title`).
+- Yig'ish: `tools/xato.sh xato-NN` → `videos/xato-NN/` (oxirida `XATO_OK xato-NN`). Shablon: `xato_v1.py`, brend ko'rinishi darslar bilan bir xil, qo'shimcha rang — qizil `214, 69, 80` (faqat xato belgisi uchun).
+- Ovoz xotiraga sig'masa (jarayon "Killed" bo'lsa), bo'laklarni bittadan chiqarish: `SEEDS=42 MALLOC_ARENA_MAX=2`.
+- Joylash: kunlik darsdan alohida vaqtda (18:30 dars o'z joyida qoladi), Instagram Reels + YouTube Shorts. Kunlik vazifa bularni o'zi yaratmaydi.

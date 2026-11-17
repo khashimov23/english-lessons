@@ -31,7 +31,7 @@ for f in sorted(glob.glob(f"{D}/kokoro/*.wav")):
         a = torch.cat([r["tts_speech"].cpu() for r in model.inference_vc(f, R, stream=False, speed=1.0)], dim=1)
     sf.write(f"{D}/vc/{os.path.basename(f)}", a.squeeze().numpy(), 24000); print("VC", os.path.basename(f), round(a.shape[-1]/24000, 2), round(time.perf_counter()-t0), flush=True)
 PRE = "Assalomu alaykum, aziz o'quvchilar!"
-for sd in (42, 7):
+for sd in [int(x) for x in os.environ.get("SEEDS", "42,7").split(",")]:   # SEEDS=42 — xotira kam bo'lsa bittadan
   for name, text in json.load(open(f"{D}/texts.json")).items():
     random.seed(sd); torch.manual_seed(sd); t0 = time.perf_counter()
     with torch.inference_mode():
