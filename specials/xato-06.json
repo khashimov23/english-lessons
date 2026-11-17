@@ -1,0 +1,42 @@
+{
+ "id": "xato-06",
+ "kind": "xato",
+ "title": "Bunday demang!",
+ "yt_title": "Transport haqida to'g'ri gapirasizmi? Inglizcha: bunday demang!",
+ "pill": "INGLIZCHADA KO'P QILINADIGAN XATOLAR",
+ "hook_big": [
+  "Transport haqida",
+  "to'g'ri gapirasizmi?"
+ ],
+ "hook_say": "Transport haqida to'g'ri gapirasizmi?",
+ "items": [
+  {
+   "uz": "Men avtobusda boraman",
+   "wrong": "I go with bus",
+   "en": "I go by bus",
+   "tr": "ay gou bay bas",
+   "note": "transport bilan «by»"
+  },
+  {
+   "uz": "Men taksida keldim",
+   "wrong": "I came on taxi",
+   "en": "I came by taxi",
+   "tr": "ay keym bay teksi",
+   "note": "taksi bilan ham «by»"
+  },
+  {
+   "uz": "Men piyoda boraman",
+   "wrong": "I go by foot",
+   "en": "I go on foot",
+   "tr": "ay gou on fut",
+   "note": "piyoda — «on foot»"
+  }
+ ],
+ "end_big": [
+  "Qaysi xatoni qilgansiz?",
+  "izohda yozing."
+ ],
+ "end_note": "Saqlab qo'ying, keyin kerak bo'ladi",
+ "end_say": "Qaysi xatoni qilgansiz? Izohda yozing va saqlab qo'ying!",
+ "caption": "Transport haqida to'g'ri gapirasizmi?\n\n❌ I go with bus → ✅ I go by bus — Men avtobusda boraman\n❌ I came on taxi → ✅ I came by taxi — Men taksida keldim\n❌ I go by foot → ✅ I go on foot — Men piyoda boraman\n\nQaysi xatoni qilgan edingiz? Izohda yozing.\nSaqlab qo'ying va ingliz tilini o'rganayotgan do'stingizga yuboring.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "xato-08",
+ "kind": "xato",
+ "title": "Bunday demang!",
+ "yt_title": "Ko'plikda shu xatoni qilasizmi? Inglizcha: bunday demang!",
+ "pill": "INGLIZCHADA KO'P QILINADIGAN XATOLAR",
+ "hook_big": [
+  "Ko'plikda",
+  "shu xatoni qilasizmi?"
+ ],
+ "hook_say": "Ko'plikda shu xatoni qilasizmi?",
+ "items": [
+  {
+   "uz": "Ikkita bola",
+   "wrong": "Two childs",
+   "en": "Two children",
+   "tr": "tu children",
+   "note": "child ko'pligi — children"
+  },
+  {
+   "uz": "Uchta erkak",
+   "wrong": "Three mans",
+   "en": "Three men",
+   "tr": "sri men",
+   "note": "man ko'pligi — men"
+  },
+  {
+   "uz": "Odamlar yaxshi",
+   "wrong": "People is good",
+   "en": "People are good",
+   "tr": "pipl ar gud",
+   "note": "people — ko'plik, «are» bilan"
+  }
+ ],
+ "end_big": [
+  "Qaysi xatoni qilgansiz?",
+  "izohda yozing."
+ ],
+ "end_note": "Saqlab qo'ying, keyin kerak bo'ladi",
+ "end_say": "Qaysi xatoni qilgansiz? Izohda yozing va saqlab qo'ying!",
+ "caption": "Ko'plikda shu xatoni qilasizmi?\n\n❌ Two childs → ✅ Two children — Ikkita bola\n❌ Three mans → ✅ Three men — Uchta erkak\n❌ People is good → ✅ People are good — Odamlar yaxshi\n\nQaysi xatoni qilgan edingiz? Izohda yozing.\nSaqlab qo'ying va ingliz tilini o'rganayotgan do'stingizga yuboring.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

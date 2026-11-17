@@ -1,0 +1,42 @@
+{
+ "id": "xato-07",
+ "kind": "xato",
+ "title": "Bunday demang!",
+ "yt_title": "Bu 3 gapda bitta ortiqcha so'z bor. Inglizcha: bunday demang!",
+ "pill": "INGLIZCHADA KO'P QILINADIGAN XATOLAR",
+ "hook_big": [
+  "Bu 3 gapda bitta",
+  "ortiqcha so'z bor."
+ ],
+ "hook_say": "Bu uchta gapda bitta ortiqcha so'z bor!",
+ "items": [
+  {
+   "uz": "Menga yordam bering",
+   "wrong": "Help to me",
+   "en": "Help me",
+   "tr": "help mi",
+   "note": "help dan keyin «to» kerak emas"
+  },
+  {
+   "uz": "Savolga javob bering",
+   "wrong": "Answer to the question",
+   "en": "Answer the question",
+   "tr": "anser dze kveschen",
+   "note": "answer dan keyin «to» kerak emas"
+  },
+  {
+   "uz": "Men inglizcha gapiraman",
+   "wrong": "I speak on English",
+   "en": "I speak English",
+   "tr": "ay spik inglish",
+   "note": "til nomi oldidan «on» kerak emas"
+  }
+ ],
+ "end_big": [
+  "Qaysi xatoni qilgansiz?",
+  "izohda yozing."
+ ],
+ "end_note": "Saqlab qo'ying, keyin kerak bo'ladi",
+ "end_say": "Qaysi xatoni qilgansiz? Izohda yozing va saqlab qo'ying!",
+ "caption": "Bu 3 gapda bitta ortiqcha so'z bor.\n\n❌ Help to me → ✅ Help me — Menga yordam bering\n❌ Answer to the question → ✅ Answer the question — Savolga javob bering\n❌ I speak on English → ✅ I speak English — Men inglizcha gapiraman\n\nQaysi xatoni qilgan edingiz? Izohda yozing.\nSaqlab qo'ying va ingliz tilini o'rganayotgan do'stingizga yuboring.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

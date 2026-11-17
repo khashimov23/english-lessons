@@ -7,7 +7,7 @@ set -uo pipefail
 cd "$(dirname "$0")/.."
 N=$1
 export TTS_ROOT=${TTS_ROOT:-$HOME/tts}
-export HF_HUB_OFFLINE=1
+export HF_HUB_OFFLINE=1 MALLOC_ARENA_MAX=2
 PY=$TTS_ROOT/venv/bin/python
 D=$TTS_ROOT/ish/dars-$N
 rm -rf "$D"; mkdir -p "$D"

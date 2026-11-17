@@ -129,11 +129,12 @@ Oldindan ko'rish: `videos/dars-NN/sheet.jpg`.
 - **Muqova:** o'sha `cover.jpg` (kanal tasdiqlangan bo'lsa ko'rinadi).
 - 1–7-darslar YouTube'ga 2026-11-17 da bir kunda joylangan; `state.json` dagi `youtube_scheduled` da vaqtlari yozilgan.
 
-## 8. Maxsus videolar: "Xato va to'g'risi" (2026-11-17 dan)
+## 8. Kunlik "Xato va to'g'risi" videolari (2026-11-17 dan)
 
-Kunlik darslardan tashqari, qamrovni oshirish uchun alohida format: "Bunday demang — bunday deng" (3 ta ko'p qilinadigan xato).
+Kunlik darsdan tashqari har kuni **13:00** da (Toshkent) ikkinchi video chiqadi: "Bunday demang — bunday deng" (3 ta ko'p qilinadigan xato). Kuniga 2 ta video: 13:00 — xato videosi, 18:30 — dars.
 
-- Mazmun: `specials/xato-NN.json` (`items`: `uz`, `wrong`, `en`, `tr`, `note`; `hook_big`, `hook_say`, `end_big`, `end_say`, `caption`, `yt_title`).
-- Yig'ish: `tools/xato.sh xato-NN` → `videos/xato-NN/` (oxirida `XATO_OK xato-NN`). Shablon: `xato_v1.py`, brend ko'rinishi darslar bilan bir xil, qo'shimcha rang — qizil `214, 69, 80` (faqat xato belgisi uchun).
-- Ovoz xotiraga sig'masa (jarayon "Killed" bo'lsa), bo'laklarni bittadan chiqarish: `SEEDS=42 MALLOC_ARENA_MAX=2`.
-- Joylash: kunlik darsdan alohida vaqtda (18:30 dars o'z joyida qoladi), Instagram Reels + YouTube Shorts. Kunlik vazifa bularni o'zi yaratmaydi.
+- **Reja:** `specials/xato-NN.json` — tayyor, tekshirilgan ssenariylar (hozir 01–16). Kunlik vazifa yangi ssenariy o'ylab topmaydi; reja tugasa, egasiga xabar beradi. Maydonlar: `items` (`uz`, `wrong`, `en`, `tr`, `note`), `hook_big`, `hook_say`, `end_big`, `end_say`, `caption`, `yt_title`.
+- **Yig'ish:** `tools/xato.sh xato-NN` (~20 daqiqa) → `videos/xato-NN/{xato-NN.mp4, cover.jpg, caption.txt}`; oxirgi qatorda `XATO_OK xato-NN` chiqishi kerak. Ovoz bo'laklari bittadan, alohida jarayonda chiqariladi (xotira yetishi uchun).
+- **Shablon:** `xato_v1.py` — brend ko'rinishi darslar bilan bir xil; qo'shimcha rang qizil `214, 69, 80` faqat xato belgisi uchun.
+- **Joylash:** bitta post, Instagram Reels + YouTube Shorts, 13:00. YouTube sarlavhasi — `yt_title`.
+- `state.json`: `xato_last_built`, `xato_last_scheduled`, `xato_scheduled`.

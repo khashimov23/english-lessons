@@ -1,0 +1,42 @@
+{
+ "id": "xato-02",
+ "kind": "xato",
+ "title": "Bunday demang!",
+ "yt_title": "Uy haqida gapirsangiz shu xatoni qilmang. Inglizcha: bunday demang!",
+ "pill": "INGLIZCHADA KO'P QILINADIGAN XATOLAR",
+ "hook_big": [
+  "«Uy» haqida gapirsangiz",
+  "shu xatoni qilmang."
+ ],
+ "hook_say": "Uy haqida gapirsangiz, shu xatoni qilmang!",
+ "items": [
+  {
+   "uz": "Men uydaman",
+   "wrong": "I am in home",
+   "en": "I am at home",
+   "tr": "ay em et houm",
+   "note": "home bilan «at» ishlatiladi"
+  },
+  {
+   "uz": "Men uyga boraman",
+   "wrong": "I go to home",
+   "en": "I go home",
+   "tr": "ay gou houm",
+   "note": "home oldidan «to» qo'yilmaydi"
+  },
+  {
+   "uz": "Uyga kel",
+   "wrong": "Come to home",
+   "en": "Come home",
+   "tr": "kam houm",
+   "note": "bu yerda ham «to» kerak emas"
+  }
+ ],
+ "end_big": [
+  "Qaysi xatoni qilgansiz?",
+  "izohda yozing."
+ ],
+ "end_note": "Saqlab qo'ying, keyin kerak bo'ladi",
+ "end_say": "Qaysi xatoni qilgansiz? Izohda yozing va saqlab qo'ying!",
+ "caption": "«Uy» haqida gapirsangiz shu xatoni qilmang.\n\n❌ I am in home → ✅ I am at home — Men uydaman\n❌ I go to home → ✅ I go home — Men uyga boraman\n❌ Come to home → ✅ Come home — Uyga kel\n\nQaysi xatoni qilgan edingiz? Izohda yozing.\nSaqlab qo'ying va ingliz tilini o'rganayotgan do'stingizga yuboring.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "xato-09",
+ "kind": "xato",
+ "title": "Bunday demang!",
+ "yt_title": "U haqida gapirsangiz bu 3 xatoni qilmang. Inglizcha: bunday demang!",
+ "pill": "INGLIZCHADA KO'P QILINADIGAN XATOLAR",
+ "hook_big": [
+  "«U» haqida gapirsangiz",
+  "bu 3 xatoni qilmang."
+ ],
+ "hook_say": "U haqida gapirsangiz, bu uchta xatoni qilmang!",
+ "items": [
+  {
+   "uz": "U ishlaydi",
+   "wrong": "He work",
+   "en": "He works",
+   "tr": "hi vorks",
+   "note": "he, she, it bilan «s» qo'shiladi"
+  },
+  {
+   "uz": "Uning mashinasi bor",
+   "wrong": "She have a car",
+   "en": "She has a car",
+   "tr": "shi hez e kar",
+   "note": "he, she bilan «has»"
+  },
+  {
+   "uz": "U bilmaydi",
+   "wrong": "He don't know",
+   "en": "He doesn't know",
+   "tr": "hi dazent nou",
+   "note": "he, she bilan «doesn't»"
+  }
+ ],
+ "end_big": [
+  "Qaysi xatoni qilgansiz?",
+  "izohda yozing."
+ ],
+ "end_note": "Saqlab qo'ying, keyin kerak bo'ladi",
+ "end_say": "Qaysi xatoni qilgansiz? Izohda yozing va saqlab qo'ying!",
+ "caption": "«U» haqida gapirsangiz bu 3 xatoni qilmang.\n\n❌ He work → ✅ He works — U ishlaydi\n❌ She have a car → ✅ She has a car — Uning mashinasi bor\n❌ He don't know → ✅ He doesn't know — U bilmaydi\n\nQaysi xatoni qilgan edingiz? Izohda yozing.\nSaqlab qo'ying va ingliz tilini o'rganayotgan do'stingizga yuboring.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

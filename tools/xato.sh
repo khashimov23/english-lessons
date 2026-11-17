@@ -25,24 +25,30 @@ for i, it in enumerate(les["items"]):
     s, sr = k.create(dot(it["en"]), voice="af_heart", speed=0.8, lang="en-us")
     sf.write(f"{out}/kokoro/en{i}.wav", np.asarray(s, dtype=np.float32), sr)
 P
-# Ovoz bo'laklab chiqariladi (har bo'lak alohida jarayonda): hammasi birga bo'lsa xotira yetmay qolishi mumkin.
-$PY - "$D" <<'P'
-import json, os, shutil, sys
-D = sys.argv[1]; t = json.load(open(f"{D}/texts.json"))
-os.makedirs(f"{D}/b0/kokoro"); [os.makedirs(f"{D}/b0/{x}") for x in ("vc", "pre")]
-for f in os.listdir(f"{D}/kokoro"): shutil.copy(f"{D}/kokoro/{f}", f"{D}/b0/kokoro/{f}")
-json.dump({}, open(f"{D}/b0/texts.json", "w"))
-for n, (k, v) in enumerate(t.items(), 1):
-    [os.makedirs(f"{D}/b{n}/{x}") for x in ("kokoro", "vc", "pre")]
-    json.dump({k: v}, open(f"{D}/b{n}/texts.json", "w"), ensure_ascii=False)
-P
-for B in "$D"/b*; do
-  $PY tools/2_ovoz_chiqar.py "$B" > "$B/ovoz.log" 2>&1
-  grep -q ALL_DONE "$B/ovoz.log" || { tail -5 "$B/ovoz.log"; echo "XATO_XATO ovoz $(basename "$B")"; exit 1; }
-  cp "$B"/vc/*.wav "$D"/vc/ 2>/dev/null; cp "$B"/pre/*.wav "$D"/pre/ 2>/dev/null
-done
+# Ovoz bo'laklab chiqariladi (har bo'lak alohida jarayonda, bitta urug' bilan): hammasi birga bo'lsa xotira yetmay qoladi.
+bolak() {  # bolak PAPKA URUG' — bir marta qayta urinadi
+  for _try in 1 2; do
+    SEEDS=$2 $PY tools/2_ovoz_chiqar.py "$1" > "$1/ovoz.log" 2>&1
+    grep -q ALL_DONE "$1/ovoz.log" && { cp "$1"/vc/*.wav "$D"/vc/ 2>/dev/null; cp "$1"/pre/*.wav "$D"/pre/ 2>/dev/null; return 0; }
+  done
+  tail -3 "$1/ovoz.log"; return 1
+}
+mk() {  # mk PAPKA KALIT — bitta o'zbekcha gap uchun ish papkasi
+  mkdir -p "$1"/{kokoro,vc,pre}
+  $PY -c "import json,sys; t=json.load(open(sys.argv[1]+'/texts.json')); json.dump({sys.argv[3]: t[sys.argv[3]]}, open(sys.argv[2]+'/texts.json','w'), ensure_ascii=False)" "$D" "$1" "$2"
+}
+mkdir -p "$D"/b_en/{vc,pre}; cp -r "$D/kokoro" "$D/b_en/kokoro"; echo "{}" > "$D/b_en/texts.json"
+bolak "$D/b_en" 42 || { echo "XATO_XATO ovoz inglizcha"; exit 1; }
+KEYS=$($PY -c "import json,sys; print(' '.join(json.load(open(sys.argv[1]+'/texts.json'))))" "$D")
+for K in $KEYS; do mk "$D/b_$K" "$K"; bolak "$D/b_$K" 42 || { echo "XATO_XATO ovoz $K"; exit 1; }; done
 V=voice_uz/$ID; rm -rf "$V"; mkdir -p "$V"
-$PY -I tools/3_kes_va_tekshir.py "$D" "$PWD/$V" 2>&1 | grep -E "^OK|^FAIL|ALL_OK|SOME_FAILED" | tee "$D/tekshiruv.log"
+tekshir() { $PY -I tools/3_kes_va_tekshir.py "$D" "$PWD/$V" 2>&1 | grep -E "^OK|^FAIL|ALL_OK|SOME_FAILED" > "$D/tekshiruv.log"; }
+tekshir
+if ! grep -q ALL_OK "$D/tekshiruv.log"; then      # o'tmagan gaplar ikkinchi urug' bilan qayta chiqariladi
+  for K in $(grep "^FAIL" "$D/tekshiruv.log" | awk '{print $2}'); do mk "$D/c_$K" "$K"; bolak "$D/c_$K" 7 || { echo "XATO_XATO ovoz $K"; exit 1; }; done
+  tekshir
+fi
+cat "$D/tekshiruv.log"
 grep -q ALL_OK "$D/tekshiruv.log" || { echo "XATO_XATO o'zbekcha tekshiruv"; exit 1; }
 cp "$D"/vc/*.wav "$V"/
 $PY -I tools/4_inglizcha_tekshir.py "$D/vc" 2>&1 | grep "^EN"
