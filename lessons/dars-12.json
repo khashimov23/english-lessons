@@ -1,0 +1,42 @@
+{
+  "lesson": 12,
+  "title": "Bu va u",
+  "hook": [
+    "«Bu» va «anavi»",
+    "inglizcha qanday?"
+  ],
+  "hook_voice": "Lesson twelve. This, that. What is this?",
+  "hook_big": [
+    "«Bu» va «anavi»",
+    "inglizcha qanday?"
+  ],
+  "hook_say": "Bu va anavi inglizcha qanday bo'ladi?",
+  "items": [
+    {
+      "en": "This is a book",
+      "tr": "dis iz e buk",
+      "uz": "Bu kitob",
+      "when": "Yaqindagi narsa haqida"
+    },
+    {
+      "en": "That is a car",
+      "tr": "det iz e kar",
+      "uz": "Anavi mashina",
+      "when": "Uzoqdagi narsa haqida"
+    },
+    {
+      "en": "What is this?",
+      "tr": "vot iz dis",
+      "uz": "Bu nima?",
+      "when": "Narsani so'raganda"
+    }
+  ],
+  "example": {
+    "en": "What is this? It's a book.",
+    "uz": "Bu nima? Bu kitob."
+  },
+  "cta": "What is this?",
+  "next": "13-dars: Buyumlar",
+  "end_say": "Saqlab qo'ying! Ertaga o'n uchinchi dars: buyumlar.",
+  "caption": "0 dan ingliz tili, 12-dars: inglizcha «this» va «that».\n\nThis is a book — Bu kitob\nThat is a car — Anavi mashina\nWhat is this? — Bu nima?\n\nthis — yaqindagi narsa, that — uzoqdagi narsa. Javobda: It's a book (It's = It is).\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 13-dars: Buyumlar.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

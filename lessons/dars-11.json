@@ -1,0 +1,42 @@
+{
+  "lesson": 11,
+  "title": "Sonlar 11-20 va yosh",
+  "hook": [
+    "Yoshingizni inglizcha",
+    "aytishni o'rganamiz."
+  ],
+  "hook_voice": "Lesson eleven. How old are you? I'm twenty.",
+  "hook_big": [
+    "Yoshingizni inglizcha",
+    "aytishni o'rganamiz."
+  ],
+  "hook_say": "Yoshingizni inglizcha aytishni o'rganamiz!",
+  "items": [
+    {
+      "en": "Eleven, twelve, thirteen",
+      "tr": "ileven, tvelv, sortin",
+      "uz": "O'n bir, o'n ikki, o'n uch",
+      "when": "O'ndan keyin sanaganda"
+    },
+    {
+      "en": "How old are you?",
+      "tr": "hau ould ar yu",
+      "uz": "Yoshingiz nechada?",
+      "when": "Yosh so'raganda"
+    },
+    {
+      "en": "I'm twenty",
+      "tr": "aym tventi",
+      "uz": "Men yigirma yoshdaman",
+      "when": "Yoshingizni aytganda"
+    }
+  ],
+  "example": {
+    "en": "How old are you? I'm twenty.",
+    "uz": "Yoshingiz nechada? Men yigirma yoshdaman."
+  },
+  "cta": "How old are you?",
+  "next": "12-dars: Bu va u",
+  "end_say": "Saqlab qo'ying! Ertaga o'n ikkinchi dars: bu va u.",
+  "caption": "0 dan ingliz tili, 11-dars: inglizcha sonlar 11 dan 20 gacha va yosh.\n\nEleven, twelve, thirteen — O'n bir, o'n ikki, o'n uch\nHow old are you? — Yoshingiz nechada?\nI'm twenty — Men yigirma yoshdaman\n\nQolgan sonlar: 14 fourteen, 15 fifteen, 16 sixteen, 17 seventeen, 18 eighteen, 19 nineteen, 20 twenty. Izohda yoshingizni inglizcha yozing!\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 12-dars: Bu va u.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
