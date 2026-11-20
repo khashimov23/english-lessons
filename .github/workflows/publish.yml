@@ -1,0 +1,72 @@
+name: Joylash (Instagram + YouTube)
+
+# Har kuni 13:00 va 18:30 (Toshkent, UTC+5) atrofida ishga tushadi va state.json dagi
+# vaqti kelgan videolarni joylaydi. Takror ishga tushsa ham bir videoni ikki marta joylamaydi
+# (published.json ga qaraydi). GitHub jadvali bir necha daqiqa kechikishi mumkin.
+on:
+  schedule:
+    - cron: "0-50/10 8 * * *"    # 13:00–13:50 Toshkent
+    - cron: "30-50/10 13 * * *"  # 18:30–18:50 Toshkent
+    - cron: "0-20/10 14 * * *"   # 19:00–19:20 Toshkent
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check — kalitlarni tekshirish; due — vaqti kelganlarni joylash; one — bitta videoni hozir joylash"
+        type: choice
+        options: [check, due, one]
+        default: check
+      item:
+        description: "one uchun: masalan dars-13 yoki xato-05"
+        required: false
+      only:
+        description: "Qaysi tarmoq"
+        type: choice
+        options: [both, instagram, youtube]
+        default: both
+      yt_privacy:
+        description: "YouTube ko'rinishi (sinov uchun private)"
+        type: choice
+        options: [public, unlisted, private]
+        default: public
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Joylash
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          ONLY: ${{ inputs.only }}
+          YT_PRIVACY: ${{ inputs.yt_privacy }}
+          MODE: ${{ inputs.mode || 'due' }}
+          ITEM: ${{ inputs.item }}
+        run: |
+          if [ "$MODE" = "one" ]; then python3 tools/publish.py one "$ITEM"; else python3 tools/publish.py "$MODE"; fi
+      - name: published.json ni saqlash
+        if: always()
+        run: |
+          git add published.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -qm "joylandi: published.json yangilandi"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1

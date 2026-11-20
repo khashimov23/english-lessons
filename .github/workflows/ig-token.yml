@@ -1,0 +1,35 @@
+name: Instagram kalitini yangilash
+
+# Instagram kaliti 60 kun yashaydi. Bu ish har hafta uni yangilaydi (yana 60 kunga uzayadi).
+# Agar yangilangan kalit matni o'zgarsa, uni saqlash uchun GH_PAT secret kerak
+# (fine-grained token, shu repo uchun "Secrets: Read and write").
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Yangilash
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          REPO: ${{ github.repository }}
+        run: |
+          [ -n "$IG_ACCESS_TOKEN" ] || { echo "IG_ACCESS_TOKEN berilmagan"; exit 0; }
+          R=$(curl -sS -G "https://graph.instagram.com/refresh_access_token" \
+                --data-urlencode "grant_type=ig_refresh_token" --data-urlencode "access_token=$IG_ACCESS_TOKEN")
+          NEW=$(echo "$R" | python3 -c "import json,sys; print(json.load(sys.stdin).get('access_token',''))")
+          DAYS=$(echo "$R" | python3 -c "import json,sys; print(int(json.load(sys.stdin).get('expires_in',0))//86400)")
+          if [ -z "$NEW" ]; then echo "Yangilab bo'lmadi:"; echo "$R" | sed "s/$IG_ACCESS_TOKEN/***/g"; exit 1; fi
+          echo "::add-mask::$NEW"
+          echo "Kalit yangilandi, yana $DAYS kun amal qiladi."
+          if [ "$NEW" = "$IG_ACCESS_TOKEN" ]; then echo "Kalit matni o'zgarmadi — saqlash shart emas."; exit 0; fi
+          if [ -z "$GH_TOKEN" ]; then echo "Kalit matni o'zgardi, lekin GH_PAT yo'q — yangi kalitni saqlab bo'lmadi."; exit 1; fi
+          gh secret set IG_ACCESS_TOKEN --repo "$REPO" --body "$NEW"
+          echo "Yangi kalit saqlandi."

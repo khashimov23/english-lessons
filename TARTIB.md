@@ -138,3 +138,13 @@ Kunlik darsdan tashqari har kuni **13:00** da (Toshkent) ikkinchi video chiqadi:
 - **Shablon:** `xato_v1.py` — brend ko'rinishi darslar bilan bir xil; qo'shimcha rang qizil `214, 69, 80` faqat xato belgisi uchun.
 - **Joylash:** bitta post, Instagram Reels + YouTube Shorts, 13:00. YouTube sarlavhasi — `yt_title`.
 - `state.json`: `xato_last_built`, `xato_last_scheduled`, `xato_scheduled`.
+
+## 9. To'g'ridan-to'g'ri joylash (2026-11-20 dan, sinovda)
+
+Metricool bepul tarifida oyiga 20 ta post chegarasi bor (2026-11-20 da tugadi), shuning uchun joylash to'g'ridan-to'g'ri Instagram va YouTube API orqali qilinadi.
+
+- **Skript:** `tools/publish.py` (`list`, `check`, `due`, `one <id>`). Jadval — `state.json` dagi `scheduled` va `xato_scheduled`; nima joylangani — `published.json`.
+- **Ishga tushishi:** `.github/workflows/publish.yml` har kuni 13:00 va 18:30 (Toshkent) atrofida `due` ni ishga tushiradi. Qo'lda: GitHub → Actions → "Joylash" → Run workflow.
+- **Kalitlar (repo → Settings → Secrets and variables → Actions):** `IG_USER_ID`, `IG_ACCESS_TOKEN`, `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN`. Kalit berilmagan tarmoq o'tkazib yuboriladi.
+- **Instagram kaliti** 60 kun yashaydi; `.github/workflows/ig-token.yml` uni har hafta yangilaydi.
+- Vaqti 6 soatdan ko'p o'tib ketgan post avtomatik joylanmaydi (`one` bilan qo'lda joylash mumkin).
