@@ -1,0 +1,42 @@
+{
+ "id": "xato-05",
+ "kind": "xato",
+ "title": "Bunday demang!",
+ "yt_title": "Bu 3 gapda bitta so'z tushib qoladi. Inglizcha: bunday demang!",
+ "pill": "INGLIZCHADA KO'P QILINADIGAN XATOLAR",
+ "hook_big": [
+  "Bu 3 gapda bitta",
+  "so'z tushib qoladi."
+ ],
+ "hook_say": "Bu uchta gapda bitta so'z tushib qoladi!",
+ "items": [
+  {
+   "uz": "Men musiqa tinglayman",
+   "wrong": "I listen music",
+   "en": "I listen to music",
+   "tr": "ay lisen tu myuzik",
+   "note": "listen dan keyin «to» keladi"
+  },
+  {
+   "uz": "Menga qarang",
+   "wrong": "Look me",
+   "en": "Look at me",
+   "tr": "luk et mi",
+   "note": "look dan keyin «at» keladi"
+  },
+  {
+   "uz": "Men sizni kutyapman",
+   "wrong": "I am waiting you",
+   "en": "I am waiting for you",
+   "tr": "ay em veyting for yu",
+   "note": "wait dan keyin «for» keladi"
+  }
+ ],
+ "end_big": [
+  "Qaysi xatoni qilgansiz?",
+  "izohda yozing."
+ ],
+ "end_note": "Saqlab qo'ying, keyin kerak bo'ladi",
+ "end_say": "Qaysi xatoni qilgansiz? Izohda yozing va saqlab qo'ying!",
+ "caption": "Bu 3 gapda bitta so'z tushib qoladi.\n\n❌ I listen music → ✅ I listen to music — Men musiqa tinglayman\n❌ Look me → ✅ Look at me — Menga qarang\n❌ I am waiting you → ✅ I am waiting for you — Men sizni kutyapman\n\nQaysi xatoni qilgan edingiz? Izohda yozing.\nSaqlab qo'ying va ingliz tilini o'rganayotgan do'stingizga yuboring.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
