@@ -1,0 +1,42 @@
+{
+ "lesson": 14,
+ "title": "Ko'plik",
+ "hook": [
+  "Bitta harf bilan",
+  "ko'plik yasaymiz."
+ ],
+ "hook_voice": "Lesson fourteen. One book, two books.",
+ "hook_big": [
+  "Bitta harf bilan",
+  "ko'plik yasaymiz."
+ ],
+ "hook_say": "Bitta harf bilan ko'plik yasashni o'rganamiz!",
+ "items": [
+  {
+   "en": "One book, two books",
+   "tr": "van buk, tu buks",
+   "uz": "Bitta kitob, ikkita kitob",
+   "when": "Kitoblarni sanaganda"
+  },
+  {
+   "en": "One pen, three pens",
+   "tr": "van pen, sri penz",
+   "uz": "Bitta ruchka, uchta ruchka",
+   "when": "Ruchkalarni sanaganda"
+  },
+  {
+   "en": "One apple, five apples",
+   "tr": "van epl, fayv eplz",
+   "uz": "Bitta olma, beshta olma",
+   "when": "Olmalarni sanaganda"
+  }
+ ],
+ "example": {
+  "en": "One pen, two pens, three pens.",
+  "uz": "Bitta ruchka, ikkita ruchka, uchta ruchka."
+ },
+ "cta": "Two books",
+ "next": "15-dars: Mening, sening",
+ "end_say": "Saqlab qo'ying! Ertaga o'n beshinchi dars: mening, sening.",
+ "caption": "0 dan ingliz tili, 14-dars: inglizcha ko'plik.\n\nOne book, two books — Bitta kitob, ikkita kitob\nOne pen, three pens — Bitta ruchka, uchta ruchka\nOne apple, five apples — Bitta olma, beshta olma\n\nNarsa bittadan ko'p bo'lsa, so'z oxiriga -s qo'shiladi: book → books, pen → pens. O'zbekchada «ikkita kitob» deymiz, inglizchada esa «two books».\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 15-dars: Mening, sening.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
