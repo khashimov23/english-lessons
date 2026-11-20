@@ -1,0 +1,42 @@
+{
+ "lesson": 13,
+ "title": "Buyumlar: a / an",
+ "hook": [
+  "Buyum nomi oldiga",
+  "nima qo'yiladi?"
+ ],
+ "hook_voice": "Lesson thirteen. A pen, an apple, an egg.",
+ "hook_big": [
+  "Buyum nomi oldiga",
+  "nima qo'yiladi?"
+ ],
+ "hook_say": "Inglizchada buyum nomi oldiga nima qo'yiladi?",
+ "items": [
+  {
+   "en": "This is a pen",
+   "tr": "dis iz e pen",
+   "uz": "Bu ruchka",
+   "when": "Ruchkani ko'rsatib"
+  },
+  {
+   "en": "This is an apple",
+   "tr": "dis iz en epl",
+   "uz": "Bu olma",
+   "when": "Olmani ko'rsatib"
+  },
+  {
+   "en": "This is an egg",
+   "tr": "dis iz en eg",
+   "uz": "Bu tuxum",
+   "when": "Tuxumni ko'rsatib"
+  }
+ ],
+ "example": {
+  "en": "This is a book. That is an apple.",
+  "uz": "Bu kitob. Anavi olma."
+ },
+ "cta": "This is an apple",
+ "next": "14-dars: Ko'plik",
+ "end_say": "Saqlab qo'ying! Ertaga o'n to'rtinchi dars: ko'plik.",
+ "caption": "0 dan ingliz tili, 13-dars: inglizcha «a» va «an».\n\nThis is a pen — Bu ruchka\nThis is an apple — Bu olma\nThis is an egg — Bu tuxum\n\nUndosh tovush oldidan a (a pen, a book), unli tovush oldidan an (an apple, an egg).\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 14-dars: Ko'plik.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

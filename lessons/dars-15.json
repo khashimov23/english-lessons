@@ -1,0 +1,42 @@
+{
+  "lesson": 15,
+  "title": "Mening, sening",
+  "hook": [
+    "Bu kimning narsasi?",
+    "Inglizcha aytamiz."
+  ],
+  "hook_voice": "Lesson fifteen. My, your, his, her.",
+  "hook_big": [
+    "Bu kimning narsasi?",
+    "Inglizcha aytamiz."
+  ],
+  "hook_say": "Bu kimning narsasi? Inglizcha aytishni o'rganamiz!",
+  "items": [
+    {
+      "en": "This is my book",
+      "tr": "dis iz may buk",
+      "uz": "Bu mening kitobim",
+      "when": "O'z narsangiz haqida"
+    },
+    {
+      "en": "This is your pen",
+      "tr": "dis iz yor pen",
+      "uz": "Bu sening ruchkang",
+      "when": "Do'stingiz narsasi haqida"
+    },
+    {
+      "en": "This is his car",
+      "tr": "dis iz hiz kar",
+      "uz": "Bu uning mashinasi",
+      "when": "Boshqa odam haqida"
+    }
+  ],
+  "example": {
+    "en": "This is my book. That is her book.",
+    "uz": "Bu mening kitobim. Anavi uning kitobi."
+  },
+  "cta": "This is my book",
+  "next": "16-dars: Oila",
+  "end_say": "Saqlab qo'ying! Ertaga o'n oltinchi dars: oila.",
+  "caption": "0 dan ingliz tili, 15-dars: inglizcha «my», «your», «his», «her».\n\nThis is my book — Bu mening kitobim\nThis is your pen — Bu sening ruchkang\nThis is his car — Bu uning mashinasi\n\nhis — erkak kishi haqida, her — ayol kishi haqida: her book — uning kitobi. your — ham «sening», ham «sizning».\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 16-dars: Oila.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
