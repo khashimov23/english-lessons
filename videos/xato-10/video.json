@@ -1,0 +1,42 @@
+{
+ "id": "xato-10",
+ "kind": "xato",
+ "title": "Bunday demang!",
+ "yt_title": "Ko'p deyishda adashmayapsizmi? Inglizcha: bunday demang!",
+ "pill": "INGLIZCHADA KO'P QILINADIGAN XATOLAR",
+ "hook_big": [
+  "«Ko'p» deyishda",
+  "adashmayapsizmi?"
+ ],
+ "hook_say": "Ko'p deyishda adashmayapsizmi?",
+ "items": [
+  {
+   "uz": "Ko'p vaqt",
+   "wrong": "Many time",
+   "en": "A lot of time",
+   "tr": "e lot ov taym",
+   "note": "time sanalmaydi: «many» emas"
+  },
+  {
+   "uz": "Ko'p pul",
+   "wrong": "Many money",
+   "en": "A lot of money",
+   "tr": "e lot ov mani",
+   "note": "money ham sanalmaydi"
+  },
+  {
+   "uz": "Ko'p odam",
+   "wrong": "Much people",
+   "en": "Many people",
+   "tr": "meni pipl",
+   "note": "sanaladigan narsaga «many»"
+  }
+ ],
+ "end_big": [
+  "Qaysi xatoni qilgansiz?",
+  "izohda yozing."
+ ],
+ "end_note": "Saqlab qo'ying, keyin kerak bo'ladi",
+ "end_say": "Qaysi xatoni qilgansiz? Izohda yozing va saqlab qo'ying!",
+ "caption": "«Ko'p» deyishda adashmayapsizmi?\n\n❌ Many time → ✅ A lot of time — Ko'p vaqt\n❌ Many money → ✅ A lot of money — Ko'p pul\n❌ Much people → ✅ Many people — Ko'p odam\n\nQaysi xatoni qilgan edingiz? Izohda yozing.\nSaqlab qo'ying va ingliz tilini o'rganayotgan do'stingizga yuboring.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
