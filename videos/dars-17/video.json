@@ -1,0 +1,42 @@
+{
+ "lesson": 17,
+ "title": "Qayerdansiz?",
+ "hook": [
+  "Chet ellik so'rasa,",
+  "nima deb javob berasiz?"
+ ],
+ "hook_voice": "Lesson seventeen. Where are you from? I'm from Uzbekistan.",
+ "hook_big": [
+  "Chet ellik so'rasa,",
+  "nima deb javob berasiz?"
+ ],
+ "hook_say": "Chet ellik qayerdansiz deb so'rasa, nima deb javob berasiz?",
+ "items": [
+  {
+   "en": "Where are you from?",
+   "tr": "ver ar yu from",
+   "uz": "Qayerdansiz?",
+   "when": "Tanishganda"
+  },
+  {
+   "en": "I'm from Uzbekistan",
+   "tr": "aym from uzbekistan",
+   "uz": "Men O'zbekistondanman",
+   "when": "Javob berganda"
+  },
+  {
+   "en": "I'm from Tashkent",
+   "tr": "aym from tashkent",
+   "uz": "Men Toshkentdanman",
+   "when": "Shahringizni aytganda"
+  }
+ ],
+ "example": {
+  "en": "Where are you from? I'm from Samarkand.",
+  "uz": "Qayerdansiz? Men Samarqanddanman."
+ },
+ "cta": "I'm from Uzbekistan",
+ "next": "18-dars: Ranglar",
+ "end_say": "Saqlab qo'ying! Ertaga o'n sakkizinchi dars: ranglar.",
+ "caption": "0 dan ingliz tili, 17-dars: inglizcha «Qayerdansiz?».\n\nWhere are you from? — Qayerdansiz?\nI'm from Uzbekistan — Men O'zbekistondanman\nI'm from Tashkent — Men Toshkentdanman\n\nfrom — «...dan» degani. Siz qayerdansiz? Izohda inglizcha yozing: I'm from ...\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 18-dars: Ranglar.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
