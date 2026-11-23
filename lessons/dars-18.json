@@ -1,0 +1,42 @@
+{
+  "lesson": 18,
+  "title": "Ranglar",
+  "hook": [
+    "Qizil, ko'k, yashil",
+    "inglizcha qanday?"
+  ],
+  "hook_voice": "Lesson eighteen. Red, blue, green.",
+  "hook_big": [
+    "Qizil, ko'k, yashil",
+    "inglizcha qanday?"
+  ],
+  "hook_say": "Qizil, ko'k, yashil inglizcha qanday bo'ladi?",
+  "items": [
+    {
+      "en": "A red apple",
+      "tr": "e red epl",
+      "uz": "Qizil olma",
+      "when": "Qizil narsa haqida"
+    },
+    {
+      "en": "A blue pen",
+      "tr": "e blu pen",
+      "uz": "Ko'k ruchka",
+      "when": "Ko'k narsa haqida"
+    },
+    {
+      "en": "A green book",
+      "tr": "e grin buk",
+      "uz": "Yashil kitob",
+      "when": "Yashil narsa haqida"
+    }
+  ],
+  "example": {
+    "en": "My pen is blue. Your pen is red.",
+    "uz": "Mening ruchkam ko'k. Sening ruchkang qizil."
+  },
+  "cta": "A red apple",
+  "next": "19-dars: Sifatlar",
+  "end_say": "Saqlab qo'ying! Ertaga o'n to'qqizinchi dars: sifatlar.",
+  "caption": "0 dan ingliz tili, 18-dars: inglizcha ranglar.\n\nA red apple — Qizil olma\nA blue pen — Ko'k ruchka\nA green book — Yashil kitob\n\nYana ikkita rang: white — oq, black — qora. Rang o'zbekchadagi kabi narsa nomidan oldin keladi: a red apple.\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 19-dars: Sifatlar.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}

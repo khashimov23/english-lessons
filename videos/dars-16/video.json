@@ -1,0 +1,43 @@
+{
+ "lesson": 16,
+ "title": "Oila",
+ "hook": [
+  "Oilangizni inglizcha",
+  "tanishtira olasizmi?"
+ ],
+ "hook_voice": "Lesson sixteen. Mother, father, brother, sister.",
+ "hook_big": [
+  "Oilangizni inglizcha",
+  "tanishtira olasizmi?"
+ ],
+ "hook_say": "Oilangizni inglizcha tanishtira olasizmi?",
+ "items": [
+  {
+   "en": "This is my mother",
+   "tr": "dis iz may mader",
+   "uz": "Bu mening onam",
+   "when": "Onangizni tanishtirib"
+  },
+  {
+   "en": "This is my father",
+   "tr": "dis iz may fader",
+   "uz": "Bu mening otam",
+   "when": "Otangizni tanishtirib"
+  },
+  {
+   "en": "This is my brother",
+   "tr": "dis iz may brader",
+   "uz": "Bu mening akam / ukam",
+   "when": "Aka-ukangizni tanishtirib",
+   "uz_say": "Bu mening akam yoki ukam."
+  }
+ ],
+ "example": {
+  "en": "This is my sister. She is a student.",
+  "uz": "Bu mening singlim. U talaba."
+ },
+ "cta": "This is my mother",
+ "next": "17-dars: Qayerdansiz?",
+ "end_say": "Saqlab qo'ying! Ertaga o'n yettinchi dars: qayerdansiz?",
+ "caption": "0 dan ingliz tili, 16-dars: inglizcha oila a'zolari.\n\nThis is my mother — Bu mening onam\nThis is my father — Bu mening otam\nThis is my brother — Bu mening akam / ukam\n\nbrother — aka ham, uka ham; sister — opa ham, singil ham: This is my sister — Bu mening opam / singlim.\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 17-dars: Qayerdansiz?\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
