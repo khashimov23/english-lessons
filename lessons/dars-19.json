@@ -1,0 +1,42 @@
+{
+  "lesson": 19,
+  "title": "Sifatlar",
+  "hook": [
+    "Katta va kichik",
+    "inglizcha nima?"
+  ],
+  "hook_voice": "Lesson nineteen. Big, small, good, bad.",
+  "hook_big": [
+    "Katta va kichik",
+    "inglizcha nima?"
+  ],
+  "hook_say": "Katta va kichik inglizcha nima bo'ladi? Hozir o'rganamiz!",
+  "items": [
+    {
+      "en": "A big house",
+      "tr": "e big haus",
+      "uz": "Katta uy",
+      "when": "Katta narsa haqida"
+    },
+    {
+      "en": "A small car",
+      "tr": "e smol kar",
+      "uz": "Kichik mashina",
+      "when": "Kichik narsa haqida"
+    },
+    {
+      "en": "A good book",
+      "tr": "e gud buk",
+      "uz": "Yaxshi kitob",
+      "when": "Yaxshi narsa haqida"
+    }
+  ],
+  "example": {
+    "en": "My house is big. My car is small.",
+    "uz": "Mening uyim katta. Mening mashinam kichik."
+  },
+  "cta": "A big house",
+  "next": "20-dars: Kundalik fe'llar",
+  "end_say": "Saqlab qo'ying! Ertaga yigirmanchi darsda ko'rishamiz.",
+  "caption": "0 dan ingliz tili, 19-dars: inglizcha sifatlar.\n\nA big house — Katta uy\nA small car — Kichik mashina\nA good book — Yaxshi kitob\n\nYana bitta sifat: bad — yomon. Sifat ham o'zbekchadagi kabi narsa nomidan oldin keladi: a big house.\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 20-dars: Kundalik fe'llar.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
