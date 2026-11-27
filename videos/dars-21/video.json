@@ -1,0 +1,42 @@
+{
+ "lesson": 21,
+ "title": "Hozirgi zamon",
+ "hook": [
+  "O'zingiz haqingizda",
+  "3 ta gap ayting."
+ ],
+ "hook_voice": "Lesson twenty-one. I work. I live in Tashkent.",
+ "hook_big": [
+  "O'zingiz haqingizda",
+  "3 ta gap ayting."
+ ],
+ "hook_say": "O'zingiz haqingizda inglizcha uchta gap aytishni o'rganamiz!",
+ "items": [
+  {
+   "en": "I work every day",
+   "tr": "ay vork evri dey",
+   "uz": "Men har kuni ishlayman",
+   "when": "Ishingiz haqida"
+  },
+  {
+   "en": "I live in Tashkent",
+   "tr": "ay liv in tashkent",
+   "uz": "Men Toshkentda yashayman",
+   "when": "Yashash joyingiz haqida"
+  },
+  {
+   "en": "I study English",
+   "tr": "ay stadi inglish",
+   "uz": "Men ingliz tilini o'rganaman",
+   "when": "O'qishingiz haqida"
+  }
+ ],
+ "example": {
+  "en": "I live in Tashkent. I work every day.",
+  "uz": "Men Toshkentda yashayman. Men har kuni ishlayman."
+ },
+ "cta": "I work every day",
+ "next": "22-dars: He / She + s",
+ "end_say": "Saqlab qo'ying! Ertaga yigirma ikkinchi darsda ko'rishamiz.",
+ "caption": "0 dan ingliz tili, 21-dars: inglizcha hozirgi zamon.\n\nI work every day — Men har kuni ishlayman\nI live in Tashkent — Men Toshkentda yashayman\nI study English — Men ingliz tilini o'rganaman\n\nDoim yoki odatda qiladigan ishlar shunday aytiladi: I + fe'l. Siz qayerda yashaysiz? Izohda inglizcha yozing: I live in ...\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 22-dars: He / She + s.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
