@@ -1,0 +1,42 @@
+{
+ "lesson": 22,
+ "title": "He / She + s",
+ "hook": [
+  "«U» haqida gapirsangiz",
+  "bitta harf qo'shiladi."
+ ],
+ "hook_voice": "Lesson twenty-two. He works. She lives in Samarkand.",
+ "hook_big": [
+  "«U» haqida gapirsangiz",
+  "bitta harf qo'shiladi."
+ ],
+ "hook_say": "U haqida gapirsangiz, fe'lga bitta harf qo'shiladi!",
+ "items": [
+  {
+   "en": "He works every day",
+   "tr": "hi vorks evri dey",
+   "uz": "U har kuni ishlaydi",
+   "when": "Erkak kishi haqida"
+  },
+  {
+   "en": "She lives in Samarkand",
+   "tr": "shi livz in samarkand",
+   "uz": "U Samarqandda yashaydi",
+   "when": "Ayol kishi haqida"
+  },
+  {
+   "en": "He drinks tea",
+   "tr": "hi drinks ti",
+   "uz": "U choy ichadi",
+   "when": "Odati haqida"
+  }
+ ],
+ "example": {
+  "en": "She lives in Samarkand. She works every day.",
+  "uz": "U Samarqandda yashaydi. U har kuni ishlaydi."
+ },
+ "cta": "He works every day",
+ "next": "23-dars: Inkor: qilmayman",
+ "end_say": "Saqlab qo'ying! Ertaga yigirma uchinchi darsda ko'rishamiz.",
+ "caption": "0 dan ingliz tili, 22-dars: inglizcha «He / She + s».\n\nHe works every day — U har kuni ishlaydi\nShe lives in Samarkand — U Samarqandda yashaydi\nHe drinks tea — U choy ichadi\n\nHe yoki she bilan fe'l oxiriga -s qo'shiladi: I work — he works, I live — she lives. I va you bilan qo'shilmaydi.\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 23-dars: Inkor: qilmayman.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
