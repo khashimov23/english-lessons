@@ -1,0 +1,42 @@
+{
+ "lesson": 20,
+ "title": "Kundalik fe'llar",
+ "hook": [
+  "Har kuni qiladigan",
+  "ishlaringiz inglizcha."
+ ],
+ "hook_voice": "Lesson twenty. Go, eat, drink, sleep.",
+ "hook_big": [
+  "Har kuni qiladigan",
+  "ishlaringiz inglizcha."
+ ],
+ "hook_say": "Har kuni qiladigan ishlaringizni inglizcha aytamiz!",
+ "items": [
+  {
+   "en": "I eat bread",
+   "tr": "ay it bred",
+   "uz": "Men non yeyman",
+   "when": "Ovqat haqida"
+  },
+  {
+   "en": "I drink tea",
+   "tr": "ay drink ti",
+   "uz": "Men choy ichaman",
+   "when": "Ichimlik haqida"
+  },
+  {
+   "en": "I go home",
+   "tr": "ay gou houm",
+   "uz": "Men uyga boraman",
+   "when": "Qayerga borishni aytganda"
+  }
+ ],
+ "example": {
+  "en": "I eat bread and drink tea.",
+  "uz": "Men non yeyman va choy ichaman."
+ },
+ "cta": "I eat bread",
+ "next": "21-dars: Hozirgi zamon",
+ "end_say": "Saqlab qo'ying! Ertaga yigirma birinchi darsda ko'rishamiz.",
+ "caption": "0 dan ingliz tili, 20-dars: inglizcha kundalik fe'llar.\n\nI eat bread — Men non yeyman\nI drink tea — Men choy ichaman\nI go home — Men uyga boraman\n\nYana bitta fe'l: sleep — uxlamoq. I sleep — Men uxlayman. Gap tartibi: avval kim (I), keyin fe'l.\nSaqlab qo'ying va ingliz tilini boshlamoqchi bo'lgan do'stingizga yuboring.\nErtaga 21-dars: Hozirgi zamon.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
