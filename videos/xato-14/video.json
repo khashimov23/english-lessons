@@ -1,0 +1,42 @@
+{
+ "id": "xato-14",
+ "kind": "xato",
+ "title": "Bunday demang!",
+ "yt_title": "Eng oddiy gaplarda ham xato qilasizmi? Inglizcha: bunday demang!",
+ "pill": "INGLIZCHADA KO'P QILINADIGAN XATOLAR",
+ "hook_big": [
+  "Eng oddiy gaplarda ham",
+  "xato qilasizmi?"
+ ],
+ "hook_say": "Eng oddiy gaplarda ham xato qilasizmi?",
+ "items": [
+  {
+   "uz": "Men talabaman",
+   "wrong": "I am student",
+   "en": "I am a student",
+   "tr": "ay em e styudent",
+   "note": "kasb oldidan «a» qo'yiladi"
+  },
+  {
+   "uz": "Men bilmayman",
+   "wrong": "I am not know",
+   "en": "I don't know",
+   "tr": "ay dount nou",
+   "note": "fe'l bilan «don't» ishlatiladi"
+  },
+  {
+   "uz": "Soat nechchi?",
+   "wrong": "How much time?",
+   "en": "What time is it?",
+   "tr": "vot taym iz it",
+   "note": "soat shunday so'raladi"
+  }
+ ],
+ "end_big": [
+  "Qaysi xatoni qilgansiz?",
+  "izohda yozing."
+ ],
+ "end_note": "Saqlab qo'ying, keyin kerak bo'ladi",
+ "end_say": "Qaysi xatoni qilgansiz? Izohda yozing va saqlab qo'ying!",
+ "caption": "Eng oddiy gaplarda ham xato qilasizmi?\n\n❌ I am student → ✅ I am a student — Men talabaman\n❌ I am not know → ✅ I don't know — Men bilmayman\n❌ How much time? → ✅ What time is it? — Soat nechchi\n\nQaysi xatoni qilgan edingiz? Izohda yozing.\nSaqlab qo'ying va ingliz tilini o'rganayotgan do'stingizga yuboring.\n\n#ingliztili #inglizchaoson #0daningliztili #english #uzbekistan"
+}
